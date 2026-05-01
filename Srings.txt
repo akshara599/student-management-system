@@ -1,0 +1,11 @@
+🧮 3️⃣ String Functions and Operations
+Operation	Example	Description
+s.size() or s.length()	s.length()	returns string length
+s.empty()	s.empty()	checks if string is empty
+s.append("abc")	"Hi".append("abc") → "Hiabc"	concatenates
+s + s2	"Hi" + "There"	concatenation using +
+s.substr(pos, len)	"Hello".substr(1,3) → "ell"	substring
+s.find("abc")	returns index if found	
+s.erase(pos, len)	removes characters	
+s.push_back('a') / s.pop_back()	add/remove last char	
+s.compare(s2)	returns 0 if equal
